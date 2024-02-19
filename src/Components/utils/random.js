@@ -2,7 +2,7 @@
 
 const getRandomFruit = ()=>{
     
-    const fruits = ["🍇","🍈","🍉","🍊","🍑","🍐","🍏","🍎","🥭","🍍"];
+    const fruits = ["🍇","🍈","🍊","🍑","🍉","🍐","🍏","🍎","🥭","🍍"];
 
     const randIndex = Math.floor(Math.random() * 10);
 

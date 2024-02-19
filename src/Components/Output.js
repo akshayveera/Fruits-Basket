@@ -13,17 +13,17 @@ const Output = () => {
     }
     
   return (
-    <>
-        <div>Output</div>
-        <div>
+    <div className=' h-full w-full flex flex-col items-center pt-5'>
+        <div className='text-3xl '>Basket</div>
+        <div className='bg-blue-100 h-[90%] w-[90%] text-5xl rounded p-7'>
             {itemsList.map((val, i)=>{
-                return <button key={i} onClick={()=>{
+                return <button className='m-2 mt-2' key={i} onClick={()=>{
                     removeFruit(i);
                 }}>{val}</button>
             })}
 
         </div>
-    </>
+    </div>
   )
 }
 
