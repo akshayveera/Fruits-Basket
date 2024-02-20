@@ -27,12 +27,12 @@ const Input = () => {
     const fruits = ["🍇","🍈","🍊","🍑","🍉","🍐","🍏","🍎","🥭","🍍"];
 
   return (
-    <div className='bg-purple-200 w-full flex flex-col rounded p-3 '>
+    <div className='bg-gradient-to-t from-purple-300 w-full flex flex-col  p-3 '>
 
 
         <div className='flex justify-between'>
 
-            <button className=' bg-purple-700 text-white px-5 py-1 rounded m-2 outline-none' onClick={()=>{
+            <button className='text-xl bg-purple-700 text-white px-5 py-1 rounded m-2 outline-none' onClick={()=>{
                 handleClick(getRandomFruit());
             }}>add random fruit </button>
 

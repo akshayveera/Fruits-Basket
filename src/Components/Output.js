@@ -14,8 +14,8 @@ const Output = () => {
     
   return (
     <div className=' h-full w-full flex flex-col items-center pt-5'>
-        <div className='text-3xl '>Basket</div>
-        <div className='bg-blue-100 h-[90%] w-[90%] text-5xl rounded p-7'>
+        <div className='md:text-3xl mb-3 font-bold text-purple-800'>Basket</div>
+        <div className=' h-[85%] w-[550px] text-5xl rounded py-4 px-7 bg-gradient-to-t from-blue-400'>
             {itemsList.map((val, i)=>{
                 return <button className='m-2 mt-2' key={i} onClick={()=>{
                     removeFruit(i);
