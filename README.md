@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## Link of hosted app : https://fruitsbasket-akshay.netlify.app/
+### Link of hosted app : https://fruitsbasket-akshay.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
